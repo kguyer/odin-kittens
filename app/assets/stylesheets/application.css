@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ .msg {
+    color: green;
+ }
+
+ .field_with_errors > span {
+    color: red;
+ }
+
+ .field_with_errors input[type="text"] {
+    border: 1px solid red;
+ }
+
+ .field_with_errors input[type="number"] {
+    border: 1px solid red;
+ }
